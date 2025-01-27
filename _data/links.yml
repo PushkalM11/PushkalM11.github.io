@@ -1,23 +1,19 @@
 - title: Github
-  href: https://github.com/agdhruv
+  href: https://github.com/PushkalM11
   fontawesome_class: fab fa-github
 
 - title: LinkedIn
-  href: https://www.linkedin.com/in/agdhruv/
+  href: https://www.linkedin.com/in/pushkal-mishra-014829218/
   fontawesome_class: fab fa-linkedin-in
 
-- title: Medium
-  href: https://medium.com/@agdhruv
-  fontawesome_class: fab fa-medium-m
-
 - title: Email
-  href: mailto:dhruv@infosci.cornell.edu
+  href: mailto:pumishra@ucsd.edu
   fontawesome_class: far fa-envelope
 
 - title: Resume
-  href: files/Dhruv_Agarwal_Resume.pdf
+  href: files/Pushkal_Mishra_Resume.pdf
   text_icon: CV
 
 - title: Google Scholar
-  href: https://scholar.google.com/citations?user=aLAvTzUAAAAJ&hl=en
+  href: https://scholar.google.com/citations?user=rfIxFYoAAAAJ&hl=en
   fontawesome_class: fas fa-graduation-cap

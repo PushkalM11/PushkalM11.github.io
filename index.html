@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="icon" href="{{site.images_location}}/favicon.png">
-	<title>Dhruv Agarwal | Home</title>
+	<title>Pushkal Mishra | Home</title>
 
 	<!-- import fontawesome fonts -->
 	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 
 				<div class="welcome">
 					<h2>Hi! I'm</h2>
-					<h1>Dhruv<span class="fw-normal">Agarwal</span></h1>
+					<h1><span class="fw-normal">Pushkal</span>Mishra</h1>
 				</div>
 
 				<div class="links">
@@ -58,15 +58,43 @@
 					{% include aboutme.html %}
 				</div>
 			</div>
-			<div class="col-md-2 mt-4 mt-md-0" id="awards">
+			<!-- <div class="col-md-2 mt-4 mt-md-0" id="awards">
 				<h4 class="text-center">Awards</h4>
 				<ul class="list-group list-group-flush mx-5 mx-md-0">
 					{% for award in site.data.awards %}
 					<li class="list-group-item px-1">{{ award }}</li>
 					{% endfor %}
-				</ul>
-			</div>
+				</ul> 
+			</div> -->
 		</section>
+		<section class="row my-news py-4">
+			<div class="col">
+				<h1 class="text-center mb-4">Updates</h1>
+                <table style="width:100%; max-width:800px; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:20px; width:100%; vertical-align:middle">
+                                <!-- Scrollable container for the news section -->
+                                <div style="max-height:250px; overflow-y:auto; padding:10px;">
+									<p>
+                                        <strong> November 24: </strong> Paper accepted at IEEE Signal Processing Letters.
+                                    </p>
+									<p>
+                                        <strong> September 24: </strong> Joined University of California San Diego to pursue my PhD in Wireless Sensing.
+                                    </p>
+									<p>
+                                        <strong> June 24: </strong> Graduated from Indian Institute of Technology, Hyderabad with a B.Tech in Electrical Engineering.
+                                    </p>
+									<p>
+                                        <strong> March 22: </strong> Received the Andy Groove Scholarship from Intel.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
 		<section class="row my-research py-4">
 
@@ -79,7 +107,7 @@
 
 		</section>
 
-		<section class="row pb-4">
+		<!-- <section class="row pb-4">
 
 			<div class="col-12">
 				<h1 class="text-center mb-4">Projects for Fun</h1>
@@ -109,7 +137,7 @@
 				{% endfor %}
 			</div>
 
-		</section>
+		</section> -->
 
 	</div>
 
